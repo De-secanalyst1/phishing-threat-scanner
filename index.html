@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing Link & Message Scanner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Phishing Threat Scanner</h1>
+        <p>Paste a suspicious URL or email snippet to inspect for red flags:</p>
+        <input type="text" id="threat-input" placeholder="e.g. http://secure-login-update.com@evil.com">
+        <div class="buttons">
+            <button id="scan-btn">Scan Threat</button>
+            <button id="clear-btn">Clear</button>
+        </div>
+        <p id="verdict-el">Awaiting input...</p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
